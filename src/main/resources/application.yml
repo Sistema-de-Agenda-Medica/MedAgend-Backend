@@ -11,3 +11,8 @@ spring:
     show-sql: true
     properties:
       hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  public:
+    key: classpath:public.pem
+  private:
+    key: classpath:private.pem
